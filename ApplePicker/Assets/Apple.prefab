@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8351782918808641240}
   - component: {fileID: 8351782918808641241}
-  m_Layer: 0
+  - component: {fileID: -6250543765532470833}
+  m_Layer: 7
   m_Name: Apple
   m_TagString: Apple
   m_Icon: {fileID: 0}
@@ -25,8 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8351782918808641242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.81, y: 16.95, z: 3.62}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8351782919327090006}
   - {fileID: 8351782919703233042}
@@ -49,6 +50,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-6250543765532470833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8351782918808641242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8693411caf1674c49a555c13f1faa514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8351782919327090007
 GameObject:
   m_ObjectHideFlags: 0
@@ -61,7 +74,7 @@ GameObject:
   - component: {fileID: 8351782919327090011}
   - component: {fileID: 8351782919327090004}
   - component: {fileID: 8351782919327090005}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: apple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +89,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8351782919327090007}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.105255, y: -12.047165, z: 0.37208843}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8351782918808641240}
@@ -156,7 +169,7 @@ GameObject:
   - component: {fileID: 8351782919703233047}
   - component: {fileID: 8351782919703233040}
   - component: {fileID: 8351782919703233041}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: apple stem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8351782919703233043}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.105255, y: -11.547165, z: 0.37208843}
+  m_LocalPosition: {x: 0, y: 0.512, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 8351782918808641240}

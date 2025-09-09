@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -299,6 +300,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06dbbebcf25b0c94597ddc10f40eafb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 2089763638534487907, guid: 6dffcae833fe6a147ba58864c650c79f, type: 3}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
 --- !u!1001 &1394122189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -315,12 +332,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8351782918808641242, guid: fad47dcd14774cb48937f94ac47f65e3, type: 3}
     - target: {fileID: 4334267971771109473, guid: 048c810170489aa47bf4ae851297ca79, type: 3}
+      propertyPath: appleDropDelay
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334267971771109473, guid: 048c810170489aa47bf4ae851297ca79, type: 3}
       propertyPath: changeDirChance
       value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4334267971771109473, guid: 048c810170489aa47bf4ae851297ca79, type: 3}
       propertyPath: leftAndRightEdge
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534048554798306979, guid: 048c810170489aa47bf4ae851297ca79, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534048555322521348, guid: 048c810170489aa47bf4ae851297ca79, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5534048556414653938, guid: 048c810170489aa47bf4ae851297ca79, type: 3}
       propertyPath: m_RootOrder
@@ -368,11 +397,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5534048556414653939, guid: 048c810170489aa47bf4ae851297ca79, type: 3}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5534048556414653941, guid: 048c810170489aa47bf4ae851297ca79, type: 3}
       propertyPath: m_Name
       value: AppleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534048556414653941, guid: 048c810170489aa47bf4ae851297ca79, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 048c810170489aa47bf4ae851297ca79, type: 3}
